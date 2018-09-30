@@ -1,0 +1,143 @@
+
+@font-face{
+	font-family: PT SANS BOLD ITALIC;
+	src: url(fonts/PTS76F.ttf);
+}
+body{
+	background: url(fon.jpg) no-repeat;
+	background-size: cover;	
+}
+h1{text-align: center;}
+
+/*.torez{ background-color: white;
+text-indent: 30px;
+font-size: 20px;
+margin: 0 auto;
+margin-left:350px;
+margin-right:350px;
+}*/
+.img{
+	display: block;
+	margin: auto;
+	width: 600px
+}
+.firstbutton{
+	width: 200px;
+	height:74px;
+	margin: auto;
+	margin-left:350px;
+	background-color: white;
+}
+.button{
+	width:207px;
+	height:74px;
+	
+}
+.content{
+    background-color: white;
+    margin: -15px 200px 0px 200px;
+    text-indent: 30px;
+    
+    font-size: 20px
+}
+.menu{
+	width: 207px;
+	
+	float: left;
+	margin-left: -9px
+	
+}
+.head{
+	border: 1px solid black;
+	background: linear-gradient(to bottom, #a100f5, #580a80);
+	font-size: 15px;
+	color: white;
+	font-family: PT SANS BOLD ITALIC;
+	/*margin-top: -9px;
+	margin-left: -9px;
+	margin-right: -9px;*/
+	position: fixed;
+	left: 0; top: 0;
+	width: 100%;
+	padding: 10px
+
+}
+table{
+	margin: auto;
+
+}
+
+
+.footer{
+	
+	left: 0; bottom: 0;
+	/*padding: 10px;*/
+	background: 
+	linear-gradient(to bottom, #a100f5, #580a80);
+	width: 100%;
+	margin: 0px -16px -30px -8px
+}
+header{
+	background: linear-gradient(to bottom, #00d5f5, #000cf5);
+	border: 1px solid black;
+	margin: -8px -8px 0 -8px;
+	padding: 0;
+	font-size: 15px;
+	color: white;
+	font-family: PT SANS BOLD ITALIC;
+	
+	/*left: 0; top: 0;*/
+	/*width: 101%;*/
+}
+footer{
+	background: linear-gradient(to bottom, #00d5f5, #000cf5);
+	border: 1px solid black;
+	margin: 8px -8px -20px -8px;
+	padding: 0px;
+	color: white;
+	
+	left: 0; bottom: 0;
+}
+
+
+
+-------------------------------------------------------------
+form .row {
+display: block;
+padding: 7px 8px;
+margin-bottom: 7px;
+}
+form .row:hover {
+background: #f1f7fa;
+}
+
+form label {
+display: inline-block;
+font-size: 1.2em;
+font-weight: bold;
+width: 120px;
+padding: 6px 0;
+color: #464646;
+vertical-align: top;
+}
+form .req { color: #ca5354; }
+
+form .note {
+font-size: 1.2em;
+line-height: 1.33em;
+font-weight: normal;
+padding: 2px 7px;
+margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus { outline: none; }
+form .txt {
+display: inline-block;
+padding: 8px 9px;
+padding-right: 30px;
+width: 240px;
+font-family: 'Oxygen', sans-serif;
+font-size: 1.35em;
+font-weight: normal;
+color: #898989;
+}
